@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .top-content {
@@ -143,4 +144,28 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    
+}
+.top {
+    margin-top: 20px;
+}
+.top nav {
+    display: flex;
+    align-items: center;	
+    justify-content: space-evenly;
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    
+}
+.headerimg {
+    margin-top: 30px;
+}
+.navbarlinks {
+    display:flex;
+}
+.navbarlinks a {
+    justify-content: space-between;
 }
